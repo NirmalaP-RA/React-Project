@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.row{
+    font-size: 50px;
+    padding: 25px;
+}
+body{
+    margin: auto;
+    width: 400px;
+    padding: 50px;
+    text-align: center;
+}
+button{
+    padding: 15px;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}

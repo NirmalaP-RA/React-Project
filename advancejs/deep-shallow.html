@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // in shallow copy if we change in one folder (like in copy var we save value of original and chage value of copy  so original alo change) than changes will also occure in another folder
+    const original={a:1,b:{c:2}};
+    const copy={...original};
+    copy.b.c=42;
+    console.log(original.b.c);
+    // but in case of deep copy if change in deep copy than original variable value not affected
+
+</script>
+</html>

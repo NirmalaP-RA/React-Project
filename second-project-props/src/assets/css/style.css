@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+    padding: 15px;
+}
+h2{
+    text-align: center;
+    padding: 15px;
+    font-size: 28px;
+}
+p{
+    text-align: center;
+    padding: 5px;
+}

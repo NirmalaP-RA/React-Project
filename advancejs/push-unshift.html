@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // in react we use spread operator more than push and pop
+    var newarray=[];
+    var user1={
+        name:'sandeep',
+        age:30,
+        email:'sandeep@gmail.com'
+    }
+    newarray.unshift(user1);
+    // newarray.push(user1);
+    var newarray1=[user1,...newarray];
+
+    var user2={
+        name:'ravi',
+        age:30,
+        email:'ravi@gmail.com'
+    }
+
+    newarray.unshift(user2);
+    // newarray.push(user2)
+    var newarray1=[...newarray1,user2];
+      var newarray1=[user2,...newarray1];
+    console.log(newarray);
+    console.log(newarray1)
+</script>
+</html>
