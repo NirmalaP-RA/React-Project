@@ -1,16 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Faq from './Faq'
-import Faq1 from './components/Faq1'
-import './assets/CSS/style.css'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-  <Faq>
-    
-  </Faq>
-  <Faq1>
-
-  </Faq1>
+ 
   </StrictMode>,
 )

@@ -7,6 +7,7 @@ export default function Header(props) {
     //2:without destructure
 
     // props is variable name to get value
+    // props use to transfer data from one file to another file(parent to child data transfer)
 
     // without destructure
     console.log(props)
@@ -14,7 +15,7 @@ export default function Header(props) {
           return (
                   <div>
                       <h2>{props.heading}</h2>
-
+                    {/* to get value from object we use variablename.key like({props.heading}) */}
                     {/* <p className=''>{props.content}</p> */}
 
                     {/* destructuring to avoid repeation of variable declaration */}
