@@ -1,14 +1,16 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './assets/CSS/style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import Home from './assets/CSS/Components/Home';
+// import Home from './components/Home';
+import Product from './components/Product';
+
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Home/>
+    {/* <Home></Home> */}
+   <Product></Product>
   </StrictMode>,
 )
 
