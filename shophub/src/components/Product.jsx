@@ -4,6 +4,7 @@ import DiscoverProduct from './DiscoverProduct'
 import Footer from './commonComponent/Footer'
 import '../CSS/Product.css'
 import ProductListing from './ProductListing'
+import { ToastContainer } from 'react-toastify'
 
 export default function Product() {
 
@@ -17,6 +18,7 @@ export default function Product() {
   // without permission api not called repeately(function called on requirement)
   return (
     <>
+      <ToastContainer></ToastContainer>
       <Header></Header>
       <DiscoverProduct></DiscoverProduct>
       <ProductListing></ProductListing>
