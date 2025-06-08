@@ -18,11 +18,11 @@ export default function Product() {
   // without permission api not called repeately(function called on requirement)
   return (
     <>
-      <ToastContainer></ToastContainer>
-      <Header></Header>
-      <DiscoverProduct></DiscoverProduct>
-      <ProductListing></ProductListing>
-      <Footer></Footer>
+      <ToastContainer/>
+      <Header/>
+      <DiscoverProduct/>
+      <ProductListing/>
+      <Footer/>
     </>
   )
 }
