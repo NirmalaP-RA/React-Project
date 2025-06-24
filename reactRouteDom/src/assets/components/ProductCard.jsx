@@ -1,5 +1,6 @@
 import React from 'react'
 import ProductListing from './ProductListing';
+import { Link } from 'react-router';
 
 export default function ProductCard({products}) {
     // after destructure it lets do some work of fetching value
@@ -27,8 +28,10 @@ export default function ProductCard({products}) {
                         </div>
 
                         <div class="card-body">
-                          <h5 class="card-title">{products.name}</h5>
-                          {/* here in name key we get product name */}
+                          <Link class="text-decoration-none text-black" to={`${'products/product-details/'+product.id}`}>
+                            <h5 class="card-title">{products.name}</h5>
+                            {/* here in name key we get product name */}
+                          </Link>
                           <p class="card-text text-muted small mb-0">{products.category_name}</p>
 
                             <div class="d-flex align-items-center mb-2">

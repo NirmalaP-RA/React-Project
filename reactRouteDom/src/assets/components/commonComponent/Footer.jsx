@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link, Links } from 'react-router'
 
 export default function Footer() {
   return (
@@ -35,13 +36,18 @@ export default function Footer() {
               <h5 class="fw-bold mb-3">Customer Service</h5>
               <ul class="list-unstyled">
                 <li class="mb-2">
-                  <a class="text-decoration-none text-muted">Contact Us</a>
+                  {/* <a href="/contact-us" class="text-decoration-none text-muted">Contact Us</a> */}
+                  {/* in href put value of your url that you set in path key similarly for other link also you can so that it shows result on click event*/}
+                  {/* but we notice here page is refreshing but i want that without page refresh content and url both change so */}
+                  {/* so we use link tag <link></link> at the place of anchor<a></a> tag  similarly for others which comes from react router dom*/}
+                   <Link to="/contact-us" class="text-decoration-none text-muted">Contact Us</Link>
+                   {/* and also do onemore thing write to at the place of href */}
                 </li>
                 <li class="mb-2"><a href="#" class="text-decoration-none text-muted">Shipping Policy</a></li>
                 <li class="mb-2"><a href="#" class="text-decoration-none text-muted">Returns & Exchanges</a></li>
                 <li>
-                  <a class="text-decoration-none text-muted">FAQs</a>
-                  </li>
+                  <Link to="/faqs" class="text-decoration-none text-muted">FAQs</Link>
+                </li>
               </ul>
             </div>
 

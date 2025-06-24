@@ -11,7 +11,7 @@ export default function Faq1() {
         const [currentIndex ,setCurrentIndex]=useState(0);
   return (
     <>
-    <Header/>
+    {/* <Header/> */}
     <div className="outer_faqs">
             <h1> Frequently Asked Questions (FAQs)</h1>
 
@@ -24,7 +24,7 @@ export default function Faq1() {
                 })
             }
     </div>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   )
 }

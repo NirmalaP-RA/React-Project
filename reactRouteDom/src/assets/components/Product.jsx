@@ -18,11 +18,12 @@ export default function Product() {
   // without permission api not called repeately(function called on requirement)
   return (
     <>
-      <ToastContainer/>
-      <Header/>
+      {/* <ToastContainer/> */}
+      {/* this component also called commonly */}
+      {/* <Header/> */}
       <DiscoverProduct/>
       <ProductListing/>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   )
 }

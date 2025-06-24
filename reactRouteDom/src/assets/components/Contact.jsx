@@ -5,7 +5,7 @@ import Footer from './commonComponent/Footer'
 export default function Contact() {
   return (
     <>
-    <Header/>
+    {/* <Header/> */}
       <div className='container-fluid p-5'>
         <div className='container'>
              <div className='row'>
@@ -15,7 +15,7 @@ export default function Contact() {
              </div>
         </div>
      </div>
-     <Footer/>
+     {/* <Footer/> */}
     </>
   )
 }
